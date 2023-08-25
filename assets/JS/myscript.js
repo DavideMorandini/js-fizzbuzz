@@ -19,7 +19,7 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
 
     let newEl = document.createElement("col");
-    containerEl.appendChild(newEl).innerHTML = 1;
+    containerEl.appendChild(newEl).innerHTML = i;
 
     newEl.style.display = 'flex';
     newEl.style.justifyContent = 'center';
